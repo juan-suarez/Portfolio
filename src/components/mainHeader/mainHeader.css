@@ -1,0 +1,150 @@
+.particle-container {
+    position: absolute;
+    height: auto; 
+    width: 100%;
+    overflow:hidden;
+}
+
+.particle-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    z-index: -1; 
+}
+
+.menu{
+    width: 35vw !important;
+}
+
+.content {
+    z-index: 0; 
+    height: 100%;
+    width: 100%;
+}
+
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.collapse-menu{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    background-color: white;
+    position:relative;
+    color:black !important;
+    height: 8vh;
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.banner-buttons Button{
+    margin: 15px;
+    border: 2px solid white !important;
+    border-radius: 7px !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+#tsparticles {
+    height: 100%;
+}
+
+.action-menu {
+    padding: 10px;
+    width: 100%;
+    display: flex;   
+}
+
+.action-menu button{
+    margin: 10px;
+    color: black;
+    text-transform: none !important;
+    border-color: black !important;
+}
+
+.header-info{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text {
+    position:relative;
+    z-index: 0;
+    color: white !important;
+    padding: 0 8vw;
+}
+
+.contact-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-down-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    color: white;
+}
+
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white; /* Color de la flecha */
+    margin: 0 auto;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.twm-form-title{
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.twm-submit-button {
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.233) !important;
+    color: rgba(0, 0, 0, 0.712) !important;
+}
+
+.twm-submit-button:hover {
+    border-color: black !important;
+    color: black !important;
+}
+
+.twm-email{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.twm-mail-icon{
+    margin-right: 10px;
+}
